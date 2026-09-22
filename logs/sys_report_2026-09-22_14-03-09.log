@@ -1,0 +1,49 @@
+==========================================
+🟢 SYSTEM INFORMATION REPORT
+Generated on: Tue Sep 22 14:03:09 WAT 2026
+Saving report to: logs/sys_report_2026-09-22_14-03-09.log
+==========================================
+🟢 OS INFORMATION:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.5 LTS
+Release:	24.04
+Codename:	noble
+
+🟢 KERNEL VERSION:
+5.10.16.3-microsoft-standard-WSL2
+
+🟢 CPU INFORMATION:
+CPU(s):                          4
+On-line CPU(s) list:             0-3
+Model name:                      Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+Thread(s) per core:              2
+Core(s) per socket:              2
+
+🟢 MEMORY (RAM) USAGE:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       429Mi       3.4Gi       284Ki       168Mi       3.4Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+🟢 DISK USAGE:
+Filesystem      Size  Used Avail Use% Mounted on
+total           713G  325G  376G  47% -
+
+🟢 TOP 10 RUNNING PROCESSES (by CPU usage):
+  PID  PPID CMD                         %CPU %MEM
+  205     9 /bin/bash ./scripts/sys_rep 16.6  0.0
+    8     7 /init                        0.0  0.0
+    9     8 -bash                        0.0  0.1
+    1     0 /init                        0.0  0.0
+    7     1 /init                        0.0  0.0
+  207   205 tee -a logs/sys_report_2026  0.0  0.0
+  230   205 ps -eo pid,ppid,cmd,%cpu,%m  0.0  0.0
+  231   205 head                         0.0  0.0
+
+🟢 LOGGED-IN USERS:
+
+🟢 LISTENING PORTS
+Netid State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+
+====================================================
+            END OF SYSTEM INFORMATION REPORT         
+====================================================
